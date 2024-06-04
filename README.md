@@ -36,7 +36,7 @@ erDiagram
         double batterySize
         int FK_user_id
     }
-    Users ||--o{ Admins : "inherits - FK_user_id in Admins refers to PK_user_id in Users"
-    Users ||--o{ Visitors : "inherits - FK_user_id in Visitors refers to PK_user_id in Users"
-    Users ||--o{ Keyboards : "owns - FK_user_id in Keyboards refers to PK_user_id in Users"
+    Users ||--o{ Admins : "inherits"
+    Users ||--o{ Visitors : "inherits"
+    Users ||--o{ Keyboards : "owns"
 ```
