@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     Users {
         int PK_user_id
@@ -38,3 +39,4 @@ erDiagram
     Users ||--o{ Admins : "inherits - FK_user_id in Admins refers to PK_user_id in Users"
     Users ||--o{ Visitors : "inherits - FK_user_id in Visitors refers to PK_user_id in Users"
     Users ||--o{ Keyboards : "owns - FK_user_id in Keyboards refers to PK_user_id in Users"
+```
