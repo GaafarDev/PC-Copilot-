@@ -1,4 +1,8 @@
 # PC-Copilot-
+
+
+
+```mermaid
 erDiagram
     Users ||--o{ Admins : "inherits"
     Users ||--o{ Visitors : "inherits"
@@ -22,3 +26,4 @@ erDiagram
         string model
     }
     Users ||--o{ Keyboards : "owns"
+```
