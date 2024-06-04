@@ -8,11 +8,9 @@ erDiagram
     }
     Admins {
         int FK_user_id
-        string admin_specific_field
     }
     Visitors {
         int FK_user_id
-        string visitor_specific_field
     }
     Keyboards {
         int PK_id
