@@ -34,11 +34,11 @@ erDiagram
         bool knob
         bool wristRest
         bool screen
-        bool rgb
+        bool lightingType
+        bool adjustableFeet
         string mountingType
         double tentingAngle
         string keycapMaterial
-        string keycapProfile
         double batterySize
         
     }
