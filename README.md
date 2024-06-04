@@ -20,10 +20,28 @@ erDiagram
         int visitor_id
         string visitor_specific_field
     }
-    Keyboards {
+   Keyboards {
         int id
         string brand
         string model
+        string productType
+        string profileType
+        double price
+        int layoutSize
+        string connectionType
+        string caseMaterial
+        bool hotSwappable
+        bool knob
+        bool wristRest
+        bool screen
+        bool rgb
+        string mountingType
+        double tentingAngle
+        string keycapMaterial
+        string keycapProfile
+        double batterySize
+        
     }
     Users ||--o{ Keyboards : "owns"
 ```
+
